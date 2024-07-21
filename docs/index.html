@@ -4,12 +4,227 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
+
 <body>
-    <h1>hello</h1>
-    <p>こんにちは<br>こんにちは<br>こんにちは></p>
-    <footer>
-        mikamika
-    </footer>
+    
+<div id="particles-js"></div>
+
+<div id="wrapper">
+
+    <div class="flex2">
+        <p class="cap">画面をフルスクリーンにしてお楽しみください</p>
+    </div>
+
+    
+    <div class="flex1">
+        <h1>星めぐりの歌</h1>
+    </div>
+    <div class="flex2">
+        <p>宮澤賢治</p>
+    </div>
+    
+
+    <div class="container1" id="container1">
+        <span class="letter letter11">あ</span>
+        <span class="letter letter21">か</span>
+        <span class="letter letter31">い</span>
+        <span class="letter letter41">め</span>
+        <span class="letter letter51" id = "letter51">だ</span>
+        <span class="letter letter61">ま</span>
+        <span class="letter letter71">の</span>
+        <span class="letter letter81">さ</span>
+        <span class="letter letter91">そ</span>
+        <span class="letter letter101">り</span>
+        <img src="./images/sasori.png" alt="クリックで表示する画像" class="image" id="image1">
+      </div>
+    
+      <div class="container" id="container2">
+        <span class="letter letter12">ひ</span>
+        <span class="letter letter22">ろ</span>
+        <span class="letter letter32">げ</span>
+        <span class="letter letter42">た</span>
+        <span class="letter letter52">鷲</span>
+        <span class="letter letter62">の</span>
+        <span class="letter letter72">つ</span>
+        <span class="letter letter82">ば</span>
+        <span class="letter letter92">さ</span>
+        <img src="./images/washi.png" alt="クリックで表示する画像" class="image" id="image2">
+      </div>
+      
+      <div class="container" id="container3">
+        <span class="letter letter1" id = "letter1">あ</span>
+        <span class="letter letter2">を</span>
+        <span class="letter letter3">い</span>
+        <span class="letter letter4">め</span>
+        <span class="letter letter5">だ</span>
+        <span class="letter letter6">ま</span>
+        <span class="letter letter7">の</span>
+        <span class="letter letter8">小</span>
+        <span class="letter letter9">い</span>
+        <span class="letter letter10">ぬ</span>
+        <img src="./images/koinu.png" alt="クリックで表示する画像" class="image" id="image3">
+      </div>
+    
+      <div class="container" id="container4">
+        <span class="letter letter14">ひ</span>
+        <span class="letter letter24">か</span>
+        <span class="letter letter34">り</span>
+        <span class="letter letter44">の</span>
+        <span class="letter letter54">へ</span>
+        <span class="letter letter64">び</span>
+        <span class="letter letter74">の</span>
+        <span class="letter letter84">と</span>
+        <span class="letter letter94">ぐ</span>
+        <span class="letter letter104">ろ</span>
+        <img src="./images/ryu.png" alt="クリックで表示する画像" class="image" id="image4">
+      </div>
+    
+      <div class="container" id="container5">
+        <span class="letter letter15">オ</span>
+        <span class="letter letter25">リ</span>
+        <span class="letter letter35">オ</span>
+        <span class="letter letter45">ン</span>
+        <span class="letter letter55">は</span>
+        <span class="letter letter65">高</span>
+        <span class="letter letter75">く</span>
+        <span class="letter letter85">う</span>
+        <span class="letter letter95">た</span>
+        <span class="letter letter105">ひ</span>
+        <span class="letter letter115">つ</span>
+        <span class="letter letter125">ゆ</span>
+        <span class="letter letter135">と</span>
+        <span class="letter letter145">し</span>
+        <span class="letter letter155">も</span>
+        <span class="letter letter165">と</span>
+        <span class="letter letter175">を</span>
+        <span class="letter letter185">お</span>
+        <span class="letter letter195">と</span>
+        <span class="letter letter205">す</span>
+        <img src="./images/orion.png" alt="クリックで表示する画像" class="image" id="image5">
+      </div>
+    
+      <div class="container" id="container6">
+        <span class="letter letter16">ア</span>
+        <span class="letter letter26">ン</span>
+        <span class="letter letter36">ド</span>
+        <span class="letter letter46">ロ</span>
+        <span class="letter letter56">メ</span>
+        <span class="letter letter66">ダ</span>
+        <span class="letter letter76">の</span>
+        <span class="letter letter86">く</span>
+        <span class="letter letter96">も</span>
+        <span class="letter letter106">は</span>
+        <span class="letter letter116">さ</span>
+        <span class="letter letter126">か</span>
+        <span class="letter letter136">な</span>
+        <span class="letter letter146">の</span>
+        <span class="letter letter156">く</span>
+        <span class="letter letter166">ち</span>
+        <span class="letter letter176">の</span>
+        <span class="letter letter186">か</span>
+        <span class="letter letter196">た</span>
+        <span class="letter letter206">ち</span>
+        <img src="./images/andromeda.png" alt="クリックで表示する画像" class="image" id="image6">
+      </div>
+    
+      <div class="sticky" id="container7">
+        <span class="letter letter17">大</span>
+        <span class="letter letter27">ぐ</span>
+        <span class="letter letter37">ま</span>
+        <span class="letter letter47">の</span>
+        <span class="letter letter57">あ</span>
+        <span class="letter letter67">し</span>
+        <span class="letter letter77">を</span>
+        <span class="letter letter87">き</span>
+        <span class="letter letter97">た</span>
+        <span class="letter letter107">に</span>
+      </div>
+      
+      <div class="sticky" id="container8">
+        <span class="letter letter18">五</span>
+        <span class="letter letter28">つ</span>
+        <span class="letter letter38">の</span>
+        <span class="letter letter48">ば</span>
+        <span class="letter letter58">し</span>
+        <span class="letter letter68">た</span>
+        <span class="letter letter78">と</span>
+        <span class="letter letter88">こ</span>
+        <span class="letter letter98">ろ</span>
+      </div>
+    
+      <div class="sticky" id="container9">
+        <span class="letter letter19">小</span>
+        <span class="letter letter29">熊</span>
+        <span class="letter letter39">の</span>
+        <span class="letter letter49">ひ</span>
+        <span class="letter letter59">た</span>
+        <span class="letter letter69">い</span>
+        <span class="letter letter79">の</span>
+        <span class="letter letter89">う</span>
+        <span class="letter letter99">へ</span>
+        <span class="letter letter109">は</span>
+      </div>
+    
+      <div class="sticky" id="container10">
+        <span class="letter letter1009">そらのめぐりの　めあて</span>
+        <img src="./images/poralis.png" alt="クリックで表示する画像" class="image10" id="image10">
+      </div>
+
+      <footer>@2024 kuro </footer>
+
+    
+</div>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/5-9/js/5-9.js"></script>
+<script>
+    document.getElementById('container1').addEventListener('click', function(event) {
+      const img = document.getElementById('image1');
+      const letter = document.getElementById('letter51');
+      img.style.display = 'block';
+      letter.style.color ='red'
+    });
+
+    document.getElementById('container2').addEventListener('click', function(event) {
+      const img = document.getElementById('image2');
+      img.style.display = 'block';
+    });
+
+    document.getElementById('container3').addEventListener('click', function(event) {
+      const img = document.getElementById('image3');
+      const letter = document.getElementById('letter1');
+      img.style.display = 'block';
+      letter.style.color ='blue'
+    });
+
+    document.getElementById('container4').addEventListener('click', function(event) {
+      const img = document.getElementById('image4');
+      img.style.display = 'block';
+    });
+
+    document.getElementById('container5').addEventListener('click', function(event) {
+      const img = document.getElementById('image5');
+      img.style.display = 'block';
+    });
+
+    document.getElementById('container6').addEventListener('click', function(event) {
+      const img = document.getElementById('image6');
+      img.style.display = 'block';
+    });
+
+</script>
+
+
+         
 </body>
+
+
+
 </html>
